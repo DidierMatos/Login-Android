@@ -4,7 +4,6 @@ android {
     compileSdkVersion 26
 
     dexOptions {
-        incremental true
         javaMaxHeapSize "4g"
     }
 
