@@ -1,6 +1,7 @@
 package com.simulogin.innovasoftdl.login_android;
 
 import android.support.v7.app.AppCompatActivity;
+import com.simulogin.innovasoftdl.login_android.R;
 import android.os.Bundle;
 
 public class Registro extends AppCompatActivity {
