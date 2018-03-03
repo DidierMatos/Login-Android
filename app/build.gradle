@@ -2,6 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
+
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+
     defaultConfig {
         applicationId "com.simulogin.innovasoftdl.login_android"
         minSdkVersion 19
