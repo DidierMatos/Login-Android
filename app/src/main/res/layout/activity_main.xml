@@ -15,18 +15,21 @@
         />
     
     <EditText
+        android:id="@+id/tv_usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Usuario"
         android:inputType="text"
         />
     <EditText
+        android:id="@+id/tv_contraseña"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="numberPassword"
         />
     <Button
+        android:id="@+id/btn_inciar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
